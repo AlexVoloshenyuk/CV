@@ -21,6 +21,28 @@ html {
     color: #ababab;
 }
 
+.profile-photo {
+    height: 233px;
+}
+
+.profile-info {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profile-text {
+    font-size: 13px;
+    line-height: 24.19px;
+}
+
+.heading {
+    margin: 0;
+    padding-bottom: 16px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+
 .heading-light {
     color: color: #ffffff;
     border-bottom: 2px #5a5a5a dashed;
