@@ -57,21 +57,27 @@ html {
 .contacts-title {
     color: #fff;
     margin-bottom: 13px;
-
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .contacts-text {
     color: #ababab;
     text-decoration: none;
-    padding-left: 24px;
+    padding-left: 27px;
     line-height: 20.97px;
 }
 
 .contacts-item {
+    padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 2px #5a5a5a dashed;
 }
 
 address {
     font-style: normal;
+}
+
+.fas {
+    margin-right: 7px;
 }
