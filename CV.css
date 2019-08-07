@@ -10,8 +10,18 @@ html {
 
 .container {
     display: flex;
+    max-width: 960px;
+    background-color: #eaeaea;
+    margin: 20px auto;
 }
 
 .profile {
     max-width: 350px;
+    background-color: #39383a;
+    color: #ababab;
+}
+
+.heading-light {
+    color: color: #ffffff;
+    border-bottom: 2px #5a5a5a dashed;
 }
