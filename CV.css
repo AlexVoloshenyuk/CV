@@ -22,12 +22,18 @@ html {
 }
 
 .profile-photo {
-    height: 233px;
+    height: 350px;
+    background-image: url(https://avatars2.githubusercontent.com/u/53173797?s=460&v=4);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .profile-info {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .profile-text {
@@ -38,12 +44,11 @@ html {
 .heading {
     margin: 0;
     padding-bottom: 16px;
-    padding-top: 50px;
-    padding-bottom: 70px;
-
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .heading-light {
-    color: color: #ffffff;
+    color: #ffffff;
     border-bottom: 2px #5a5a5a dashed;
 }
