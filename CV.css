@@ -39,6 +39,7 @@ html {
 .profile-text {
     font-size: 13px;
     line-height: 24.19px;
+    margin-bottom: 50px;
 }
 
 .heading {
@@ -51,4 +52,26 @@ html {
 .heading-light {
     color: #ffffff;
     border-bottom: 2px #5a5a5a dashed;
+}
+
+.contacts-title {
+    color: #fff;
+    margin-bottom: 13px;
+
+}
+
+.contacts-text {
+    color: #ababab;
+    text-decoration: none;
+    padding-left: 24px;
+    line-height: 20.97px;
+}
+
+.contacts-item {
+    padding-bottom: 24px;
+    border-bottom: 2px #5a5a5a dashed;
+}
+
+address {
+    font-style: normal;
 }
