@@ -178,6 +178,7 @@ address {
     padding-bottom: 30px;
     border-bottom: 1px solid #e0e0e0;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .name {
@@ -208,4 +209,10 @@ address {
 .about-contacts_link {
     text-decoration: none;
     color: #777777;
+}
+
+.heading_dark {
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #e0e0e0;
 }
