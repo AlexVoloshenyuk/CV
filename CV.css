@@ -114,3 +114,21 @@ address {
     font-size: 15px;
     font-weight: 600;
 }
+
+.resume {
+    padding: 25px 30px;
+
+}
+
+.resume-wrap {
+    border: 1px solid rgba(168, 168, 168, 0.44);
+}
+
+.logo {}
+
+.logo-img {
+    width: 92px;
+    height: 93px;
+    border: 1px solid #39383a;
+    border-radius: 50%;
+}
