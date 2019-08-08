@@ -12,11 +12,12 @@ html {
     display: flex;
     max-width: 960px;
     background-color: #eaeaea;
+    justify-content: space-between;
     margin: 20px auto;
 }
 
 .profile {
-    max-width: 350px;
+    flex-basis: 35%;
     background-color: #39383a;
     color: #ababab;
 }
@@ -117,6 +118,8 @@ address {
 
 .resume {
     padding: 25px 30px;
+    flex-basis: 63%;
+    background-color: #fff;
 
 }
 
@@ -124,11 +127,17 @@ address {
     border: 1px solid rgba(168, 168, 168, 0.44);
 }
 
-.logo {}
+.logo {
+    display: flex;
+    justify-content: center;
+}
 
 .logo-img {
     width: 92px;
     height: 93px;
     border: 1px solid #39383a;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
