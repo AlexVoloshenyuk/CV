@@ -133,6 +133,7 @@ address {
 .logo {
     display: flex;
     justify-content: center;
+    margin-bottom: 38px;
 }
 
 .logo-img {
@@ -171,4 +172,39 @@ address {
 .logo-lines_right .logo-line:nth-child(2) {
     margin-left: 20px;
     width: 55px;
+}
+
+.about {
+    text-align: center;
+
+}
+
+.name {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 10.75;
+    margin-bottom: 10px;
+
+}
+
+.position {
+    display: inline-block;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+.about-address {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.about-contacts {
+    font-size: 8px;
+}
+
+.about-contacts_link {
+    text-decoration: none;
+    color: #777777;
 }
