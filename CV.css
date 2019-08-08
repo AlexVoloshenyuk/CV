@@ -144,3 +144,31 @@ address {
     justify-content: center;
     align-items: center;
 }
+
+.logo-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-right: 17px;
+
+}
+
+.logo-line {
+    width: 43px;
+    height: 2px;
+    background-color: #39383a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-lines_left .logo-line:nth-child(2) {
+    margin-right: 20px;
+    width: 55px;
+}
+
+.logo-lines_right .logo-line:nth-child(2) {
+    margin-left: 20px;
+    width: 55px;
+}
