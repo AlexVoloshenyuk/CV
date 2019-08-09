@@ -313,7 +313,7 @@ address {
 
 @media(max-width:1024px) {
     .container {
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -365,5 +365,9 @@ address {
 
     .name {
         letter-spacing: normal;
+    }
+
+    .level {
+        width: 50%;
     }
 }
