@@ -358,4 +358,8 @@ address {
     .logo {
         display: none;
     }
+
+    .container {
+        min-width: 320px;
+    }
 }
