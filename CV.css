@@ -362,4 +362,8 @@ address {
     .container {
         min-width: 320px;
     }
+
+    .name {
+        letter-spacing: normal;
+    }
 }
