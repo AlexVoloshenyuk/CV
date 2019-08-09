@@ -347,6 +347,15 @@ address {
         width: 70px;
         height: 70px;
     }
+
+    .logo-lines {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 }
 
-@media(max-width: 480px) {}
+@media(max-width: 480px) {
+    .logo {
+        display: none;
+    }
+}
